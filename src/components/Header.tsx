@@ -27,7 +27,7 @@ const Header = () => {
               <Settings className="h-8 w-8 text-primary transition-transform duration-300 group-hover:rotate-180" />
               <Wrench className="absolute -bottom-1 -right-1 h-4 w-4 text-accent" />
             </div>
-            <span className="text-xl font-bold gradient-text">TechFix Pro</span>
+            <span className="text-2xl text-red-500 font-bold gradient-text">Dallas, Keys and Screens</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -36,7 +36,7 @@ const Header = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`text-sm font-medium transition-colors duration-200 ${
+                className={`text-lg font-medium transition-colors duration-200 ${
                   isActive(link.path)
                     ? 'text-primary'
                     : 'text-muted-foreground hover:text-foreground'
@@ -51,8 +51,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <Button asChild className="btn-accent">
               <Link to="/contact">
-                <Phone className="h-4 w-4 mr-2" />
-                Get Quote
+                Book Appointment
               </Link>
             </Button>
           </div>

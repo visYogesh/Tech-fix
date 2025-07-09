@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Professional tech repair services"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-transparent"></div>
+        <div className="absolute inset-0  bg-gradient-to-r from-background/95 via-background/80 to-transparent"></div>
       </div>
 
       {/* Content */}
@@ -27,9 +27,9 @@ const Hero = () => {
 
             {/* Main Headline */}
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
                 Get Your Device{' '}
-                <span className="gradient-text">Fixed Fast</span>
+                <span className="gradient-text text-black">Fixed Fast</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
                 Professional repair services for smartphones, laptops, car keys, and electronics. 
@@ -39,14 +39,15 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/contact" className="btn-hero inline-flex items-center justify-center">
+              <Link to="/contact" className="btn-hero inline-flex items-center justify-center bg-green-500">
                 Book Repair Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link to="/services" className="btn-secondary inline-flex items-center justify-center">
+              <Link to="/services" className="btn-secondary inline-flex items-center justify-center bg-red-500">
                 View Services
               </Link>
             </div>
+
 
             {/* Trust Indicators */}
             <div className="flex items-center gap-8 pt-8">

@@ -37,7 +37,7 @@ const ServicesPreview = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Professional <span className="gradient-text">Repair Services</span>
+            Professional <span className="text-black">Repair Services</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We specialize in fast, reliable repairs for all your tech devices. 
@@ -82,7 +82,7 @@ const ServicesPreview = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Link to="/services" className="btn-hero inline-flex items-center">
+          <Link to="/services" className="bg-green-500 btn-hero inline-flex items-center text-black">
             View All Services
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>

@@ -43,7 +43,7 @@ const About = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold">
-                About <span className="gradient-text">TechFix Pro</span>
+                About <span className="gradient-text text-red-400">TechFix Pro</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
                 Your trusted technology repair partner, delivering professional service 
@@ -80,7 +80,7 @@ const About = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold">
-                  Our <span className="gradient-text">Story</span>
+                  Our Story
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
                   Founded in 2018, TechFix Pro started as a small repair shop with a simple mission: 
@@ -133,7 +133,7 @@ const About = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Our <span className="gradient-text">Values</span>
+                Our Values
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 The principles that guide everything we do and every service we provide.
@@ -165,21 +165,21 @@ const About = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="max-w-3xl mx-auto space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Ready to Experience the <span className="gradient-text">TechFix Pro</span> Difference?
+                Ready to Experience the TechFix Pro Difference?
               </h2>
               <p className="text-lg text-muted-foreground">
                 Join thousands of satisfied customers who trust us with their tech repair needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="btn-hero">Get Started Today</button>
-                <button className="btn-secondary">View Our Services</button>
+                <button className="btn-hero bg-green-500 text-black">Get Started Today</button>
+                <button className="btn-secondary bg-red-500 text-black">View Our Services</button>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

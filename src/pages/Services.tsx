@@ -94,7 +94,7 @@ const Services = () => {
         <section className="py-20 bg-gradient-to-r from-primary/10 to-accent/10">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Our <span className="gradient-text">Repair Services</span>
+              Our Repair Services
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
               Professional tech repair services with fast turnaround times, quality parts, 
@@ -166,7 +166,7 @@ const Services = () => {
         </section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
