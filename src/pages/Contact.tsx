@@ -70,7 +70,7 @@ const Contact = () => {
         <section className="py-20 bg-gradient-to-r from-primary/10 to-accent/10">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Get in <span className="gradient-text">Touch</span>
+              Get in <span className="text-green-500">Touch</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
               Ready to get your device repaired? Contact us today for a free quote 

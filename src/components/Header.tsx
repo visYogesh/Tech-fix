@@ -27,7 +27,7 @@ const Header = () => {
               <Settings className="h-8 w-8 text-primary transition-transform duration-300 group-hover:rotate-180" />
               <Wrench className="absolute -bottom-1 -right-1 h-4 w-4 text-accent" />
             </div>
-            <span className="text-2xl text-red-500 font-bold gradient-text">Dallas, Keys and Screens</span>
+            <span className="text-2xl text-green-500 font-bold gradient-text">Dallas, Keys and Screens</span>
           </Link>
 
           {/* Desktop Navigation */}
